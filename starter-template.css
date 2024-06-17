@@ -15,6 +15,10 @@ a:hover {
   font-weight: bold;
 }
 
+.paper-authors {
+  font-style: italic;
+}
+
 .starter-template {
   /*padding: 40px 15px;*/
   text-align: center;
@@ -39,7 +43,38 @@ a:hover {
     padding-left: 1em;
 }
 
+#schedule_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
 
+#schedule_table > tbody > tr {
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+
+#schedule_table > tbody > tr > td {
+  vertical-align: top;
+  padding: 0.55em;
+}
+
+#schedule_table > tbody > tr > td.time {
+  white-space: nowrap;
+  text-align: right;
+}
+
+#schedule_table ul {
+  margin: 0;
+}
+
+#schedule_table ul > li {
+  margin: 0.3em 0;
+}
+
+#schedule_table ul > li .paper-length {
+  font-size: 0.95em;
+}
 
 .vcenter {
     display: flex;
