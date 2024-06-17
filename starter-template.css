@@ -17,6 +17,7 @@ a:hover {
 
 .paper-authors {
   font-style: italic;
+  clear: both;
 }
 
 .starter-template {
@@ -73,7 +74,9 @@ a:hover {
 }
 
 #schedule_table ul > li .paper-length {
-  font-size: 0.95em;
+  font-size: 0.9em;
+  display: inline-block;
+  float: right;
 }
 
 .vcenter {
