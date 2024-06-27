@@ -11,7 +11,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.bold {
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bold, .session-name {
   font-weight: bold;
 }
 
